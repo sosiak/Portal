@@ -9,7 +9,7 @@ $(document).ready(function() {
 	});
 	$(".search-icon").click(function() {
 		$(".icon").animate({
-			left: "95%"
+			left: "94%"
 		}, 1000, function() {
 			//Complete//
 		});
