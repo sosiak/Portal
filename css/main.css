@@ -64,6 +64,7 @@
           display: none; }
         .row .nav-left ul .navbars button {
           width: 25%;
+          line-height: 20px;
           display: none; }
         .row .nav-left ul .navbars #public {
           display: none; }
@@ -156,7 +157,7 @@ footer {
 
 @media (max-width: 800px) {
   .nav-left ul {
-    padding-left: 10px; } }
+    padding-left: 3px; } }
 
 @media (max-width: 576px) {
   .nav-left {
