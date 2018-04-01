@@ -13,7 +13,5 @@ $(document).ready(function() {
 		}, 1000, function() {
 			//Complete//
 		});
-		$(".code-button").slideDown(400).delay(600);
-		$(".code-input").slideDown(600).delay(800);
 	});
 });

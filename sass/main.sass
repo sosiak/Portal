@@ -40,13 +40,12 @@ $main-font: 'Poppins', sans-serif
 				.fa-book
 					margin-right: 4px
 				#languages
-					display: none
+					display: block
 					select
 						background-color: #272C33
 						color: #526976
-						width: 80%
-						margin-left: 20%
-						margin-top: 10px
+						width: 100%
+						margin-top: 5px
 						border: 0
 						border-radius: 2%
 						option
@@ -72,16 +71,14 @@ $main-font: 'Poppins', sans-serif
 					list-style-image: url('http://i65.tinypic.com/2eq9e2t.png')
 					.public-list
 						font-size: 14px
-						&:hover
-							color: #182C61
 						a
 							text-decoration: none
 							color: #526976
+							transition: 0.5s
 							&:hover
 								text-decoration: none
 								color: #182C61
-								font-weight: bold
-								font-size: 16px
+								font-size: 15px
 						p
 							font-size: 12px
 				.all-post
@@ -99,32 +96,32 @@ $main-font: 'Poppins', sans-serif
 		height: 800px
 		font-family: $main-font
 		.search
-			line-height: 50px
-			font-size: 40px
-			height: 60px
-			background-color: #1E88E5
-			color: #C2DFF8
-			position: relative
 			.search-icon
-				.icon
-					display: inline
-					position: relative
-					left: 50%
-					margin: auto
-					.fa-search
-						&:hover
-							color: #182C61
-							transition: 0.7s
-							cursor: pointer
+				input
+				    width: 50px
+				    box-sizing: border-box
+				    font-size: 16px
+				    background-color: #1E88E5
+				    background-image: url('http://i64.tinypic.com/2uqg8kz.png')
+				    background-position: center right
+				    background-repeat: no-repeat
+				    background-size: 30px 40px
+				    padding: 12px 40px 12px 20px
+				    -webkit-transition: width 0.4s ease-in-out
+				    transition: width 0.4s ease-in-out
+				    border: 0
+				    border-radius: 4px
+				    color: #C2DFF8
+				    &:focus
+				    	width: 100%
+
 		.code-button
 			margin-top: 10px
-			display: none
 			button
 				margin-left: 5px
 				padding: 3px 10px
 		.code-input
 			padding: 10px 20px 0px 20px
-			display: none
 			textarea
 				background-color: #272c33
 				border: 0
