@@ -16,7 +16,7 @@
   margin-right: 0; }
   .row .nav-left {
     background-color: #272C33;
-    height: 1235px;
+    height: 1150px;
     padding: 5px 0px;
     overflow: auto; }
     .row .nav-left img {
@@ -96,7 +96,7 @@
     padding-left: 0;
     padding-right: 0;
     background-color: #383F48;
-    height: 1235px;
+    height: 1150px;
     font-family: "Poppins", sans-serif; }
     .row .nav-right .search .click-search {
       width: 100%;
@@ -159,6 +159,8 @@
         height: 900px;
         resize: none;
         font-size: 12px; }
+        .row .nav-right .code-input textarea:focus {
+          outline: 0; }
       .row .nav-right .code-input .button {
         margin-top: 2px;
         text-align: center; }
