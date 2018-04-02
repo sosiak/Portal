@@ -16,7 +16,7 @@
   margin-right: 0; }
   .row .nav-left {
     background-color: #272C33;
-    height: 1280px;
+    height: 1255px;
     padding: 5px 0px;
     overflow: auto; }
     .row .nav-left img {
@@ -39,7 +39,9 @@
         .row .nav-left ul .navbars .fa-book {
           margin-right: 4px; }
         .row .nav-left ul .navbars #languages {
-          display: block; }
+          display: block;
+          padding-left: 27px;
+          padding-right: 5px; }
           .row .nav-left ul .navbars #languages select {
             background-color: #272C33;
             color: #526976;
@@ -47,6 +49,8 @@
             margin-top: 5px;
             border: 0;
             border-radius: 2%; }
+            .row .nav-left ul .navbars #languages select:focus {
+              outline: 0; }
             .row .nav-left ul .navbars #languages select option {
               font-size: 14px; }
               .row .nav-left ul .navbars #languages select option:hover {
@@ -92,7 +96,7 @@
     padding-left: 0;
     padding-right: 0;
     background-color: #383F48;
-    height: 1280px;
+    height: 1255px;
     font-family: "Poppins", sans-serif; }
     .row .nav-right .search .click-search {
       width: 100%;
@@ -153,7 +157,8 @@
         color: #C2DFF8;
         padding: 7px 10px;
         height: 900px;
-        resize: none; }
+        resize: none;
+        font-size: 12px; }
       .row .nav-right .code-input .button {
         margin-top: 2px;
         text-align: center; }

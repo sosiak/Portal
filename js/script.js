@@ -9,17 +9,14 @@ $(document).ready(function() {
 	});
 	$(".search-passive").click(function() {
 		$(".search-dark").css("display", "block");
-		$(".nav-left").css("padding-top", "45px");
-		$(".search-dark").css("left", "-33%");
-		$(".search-dark").css("width", "133%");
+		$(".search-dark").css("width", "100%");
 		$(".search-passive").css("display", "none");
 		$(".search-active-icon").css("display", "block");
 	});
 	$(".search-active-icon").click(function() {
 		$(".search-dark").css("left", "0");
-		$(".search-dark").css("width", "1%").fadeOut(300);
+		$(".search-dark").css("width", "1%").fadeOut(200);
 		$(".search-active-icon").css("display", "none");
 		$(".search-passive").css("display", "block");
-		$(".nav-left").css("padding-top", "5px");
 	});
 });
