@@ -7,11 +7,15 @@ $(document).ready(function() {
 		$(".public-toggle:not(#public)").hide(400);
 		$("#public").toggle(400);
 	});
-	$(".search-icon").click(function() {
-		$(".icon").animate({
-			left: "94%"
-		}, 1000, function() {
-			//Complete//
-		});
+	$(".search-passive").click(function() {
+		$(".search-dark").css("display", "block");
+		$(".search-dark").css("width", "100%");
+		$(".search-passive").css("display", "none");
+		$(".search-active-icon").css("display", "block");
+	});
+	$(".search-active-icon").click(function() {
+		$(".search-dark").css("width", "1%").fadeOut(300);
+		$(".search-active-icon").css("display", "none");
+		$(".search-passive").css("display", "block");
 	});
 });
