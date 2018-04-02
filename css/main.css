@@ -16,7 +16,7 @@
   margin-right: 0; }
   .row .nav-left {
     background-color: #272C33;
-    height: 800px;
+    height: 1280px;
     padding: 5px 0px;
     overflow: auto; }
     .row .nav-left img {
@@ -92,7 +92,7 @@
     padding-left: 0;
     padding-right: 0;
     background-color: #383F48;
-    height: 800px;
+    height: 1280px;
     font-family: "Poppins", sans-serif; }
     .row .nav-right .search .click-search {
       width: 100%;
@@ -152,7 +152,7 @@
         width: 100%;
         color: #C2DFF8;
         padding: 7px 10px;
-        height: 600px;
+        height: 900px;
         resize: none; }
       .row .nav-right .code-input .button {
         margin-top: 2px;
@@ -171,6 +171,14 @@ footer {
   font-size: 14px;
   color: #526976;
   font-weight: bold; }
+
+@media (max-width: 1400px) {
+  .row .nav-left {
+    height: 800px; }
+  .row .nav-right {
+    height: 800px; }
+    .row .nav-right .code-input textarea {
+      height: 600px; } }
 
 @media (max-width: 992px) {
   .fa-search {
